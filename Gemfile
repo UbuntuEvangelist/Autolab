@@ -62,7 +62,7 @@ gem 'omniauth-shibboleth', '>=1.1.2'
 gem 'dynamic_form'
 
 # Supports zip file generation.
-gem 'rubyzip'
+gem 'rubyzip', '>= 1.2.2'
 
 # Helper gem for Ruby JSON API client
 gem 'httparty'
