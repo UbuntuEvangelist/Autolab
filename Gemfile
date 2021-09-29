@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '=4.2.1'
+gem 'rails', '= 4.2.1'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 4.0.3'
+gem 'sass-rails', '>= 5.0.6'
 
 # Use Materialize for the base css
 gem 'materialize-sass'
@@ -15,13 +15,13 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '>= 4.0.0'
+gem 'coffee-rails', '>= 4.2.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.2.2'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -38,7 +38,7 @@ gem 'spring', group: :development
 # Enables Slack notifications
 gem 'slack-notifier'
 # E-mail autolab-dev on exceptions in production
-gem 'exception_notification', ">= 4.1.0"
+gem 'exception_notification', '>= 4.2.1'
 
 # Used by lib/tasks/autolab.rake to populate DB with dummy seed data
 gem 'rake', '>=10.3.2'
@@ -52,7 +52,7 @@ gem 'sqlite3'
 gem 'thin'
 
 # External authentication
-gem 'devise', '=3.4.0'
+gem 'devise', '= 3.4.0'
 gem 'omniauth', '>=1.2.2'
 gem 'omniauth-facebook', '>=2.0.0'
 gem 'omniauth-google-oauth2', '>=0.2.5'
@@ -68,10 +68,10 @@ gem 'rubyzip'
 gem 'httparty'
 
 # Enables RSpec testing framework with Capybara and Factory Girl.
-gem 'rspec-rails'
+gem 'rspec-rails', '>= 3.5.2'
 gem 'rack-test'
-gem 'capybara', group: [:development, :test]
-gem 'factory_girl_rails', group: [:development, :test]
+gem 'capybara', '>= 2.11.0', group: [:development, :test]
+gem 'factory_girl_rails', '>= 4.8.0', group: [:development, :test]
 gem 'database_cleaner', group: [:development, :test]
 gem 'codeclimate-test-reporter', group: :test, require: nil
 gem 'newrelic_rpm'
@@ -86,7 +86,7 @@ gem 'newrelic_rpm'
 # gem 'capistrano-rails', group: :development
 
 # Dates and times
-gem 'momentjs-rails', '>= 2.9.0'
+gem 'momentjs-rails', '>= 2.15.1'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.0.0'
 
 # Force SSL on certain routes
