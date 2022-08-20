@@ -53,10 +53,10 @@ gem 'thin'
 
 # External authentication
 gem 'devise', '=3.4.0'
-gem 'omniauth', '>=1.2.2'
-gem 'omniauth-facebook', '>=2.0.0'
-gem 'omniauth-google-oauth2', '>=0.2.5'
-gem 'omniauth-shibboleth', '>=1.1.2'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-facebook', '>= 4.0.0'
+gem 'omniauth-google-oauth2', '>= 0.4.1'
+gem 'omniauth-shibboleth', '>= 1.2.1'
 
 # Adds It also adds f.error_messages and f.error_message_on to form builders
 gem 'dynamic_form'
