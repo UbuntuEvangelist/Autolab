@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '=4.2.1'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 4.0.3'
+gem 'sass-rails', '>= 6.0.0'
 
 # Use Materialize for the base css
 gem 'materialize-sass'
@@ -117,4 +117,4 @@ gem 'prawn', '0.13.0'
 # LDAP Lookup
 gem 'net-ldap'
 
-gem 'sprockets-rails', '2.3.3'
+gem 'sprockets-rails', '3.0.0'
