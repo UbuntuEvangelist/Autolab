@@ -65,7 +65,7 @@ gem 'dynamic_form'
 gem 'rubyzip'
 
 # Helper gem for Ruby JSON API client
-gem 'httparty'
+gem 'httparty', '>= 0.21.0'
 
 # Enables RSpec testing framework with Capybara and Factory Girl.
 gem 'rspec-rails'
