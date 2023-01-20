@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '=4.2.1'
+gem 'rails', '= 6.1.7.1'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 4.0.3'
+gem 'sass-rails', '>= 5.0.8'
 
 # Use Materialize for the base css
 gem 'materialize-sass'
@@ -15,7 +15,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '>= 4.0.0'
+gem 'coffee-rails', '>= 4.2.2'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer',  platforms: :ruby
@@ -27,7 +27,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '>= 2.0'
+gem 'jbuilder', '>= 2.6.4'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '>= 0.4.0', group: :doc
@@ -38,7 +38,7 @@ gem 'spring', group: :development
 # Enables Slack notifications
 gem 'slack-notifier'
 # E-mail autolab-dev on exceptions in production
-gem 'exception_notification', ">= 4.1.0"
+gem 'exception_notification', '>= 4.4.0'
 
 # Used by lib/tasks/autolab.rake to populate DB with dummy seed data
 gem 'rake', '>=10.3.2'
@@ -52,11 +52,11 @@ gem 'sqlite3'
 gem 'thin'
 
 # External authentication
-gem 'devise', '=3.4.0'
-gem 'omniauth', '>=1.2.2'
-gem 'omniauth-facebook', '>=2.0.0'
-gem 'omniauth-google-oauth2', '>=0.2.5'
-gem 'omniauth-shibboleth', '>=1.1.2'
+gem 'devise', '= 4.7.0'
+gem 'omniauth', '>= 1.3.1'
+gem 'omniauth-facebook', '>= 4.0.0'
+gem 'omniauth-google-oauth2', '>= 0.4.1'
+gem 'omniauth-shibboleth', '>= 1.2.1'
 
 # Adds It also adds f.error_messages and f.error_message_on to form builders
 gem 'dynamic_form'
@@ -86,7 +86,7 @@ gem 'newrelic_rpm'
 # gem 'capistrano-rails', group: :development
 
 # Dates and times
-gem 'momentjs-rails', '>= 2.9.0'
+gem 'momentjs-rails', '>= 2.15.1'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.0.0'
 
 # Force SSL on certain routes
