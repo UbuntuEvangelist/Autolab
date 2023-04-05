@@ -1,36 +1,36 @@
 source 'https://rubygems.org'
 
-gem 'rails', '=4.2.1'
+gem 'rails', '= 6.1.7.3'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 4.0.3'
+gem 'sass-rails', '>= 6.0.0'
 
 # Use Materialize for the base css
 gem 'materialize-sass'
 
 # Use for some of the glypicons on the site
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '>= 4.0.0'
+gem 'coffee-rails', '>= 4.2.2'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '>= 2.0'
+gem 'jbuilder', '>= 2.6.4'
 
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '>= 0.4.0', group: :doc
+gem 'sdoc', '>= 1.0.0', group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring', group: :development
@@ -38,10 +38,10 @@ gem 'spring', group: :development
 # Enables Slack notifications
 gem 'slack-notifier'
 # E-mail autolab-dev on exceptions in production
-gem 'exception_notification', ">= 4.1.0"
+gem 'exception_notification', '>= 4.4.0'
 
 # Used by lib/tasks/autolab.rake to populate DB with dummy seed data
-gem 'rake', '>=10.3.2'
+gem 'rake', '>= 12.3.3'
 gem 'populator', '>=1.0.0'
 
 # To communicate with MySQL database
@@ -52,20 +52,20 @@ gem 'sqlite3'
 gem 'thin'
 
 # External authentication
-gem 'devise', '=3.4.0'
-gem 'omniauth', '>=1.2.2'
-gem 'omniauth-facebook', '>=2.0.0'
-gem 'omniauth-google-oauth2', '>=0.2.5'
-gem 'omniauth-shibboleth', '>=1.1.2'
+gem 'devise', '= 4.7.1'
+gem 'omniauth', '>= 2.1.0'
+gem 'omniauth-facebook', '>= 4.0.0'
+gem 'omniauth-google-oauth2', '>= 0.4.1'
+gem 'omniauth-shibboleth', '>= 1.2.1'
 
 # Adds It also adds f.error_messages and f.error_message_on to form builders
 gem 'dynamic_form'
 
 # Supports zip file generation.
-gem 'rubyzip'
+gem 'rubyzip', '>= 1.3.0'
 
 # Helper gem for Ruby JSON API client
-gem 'httparty'
+gem 'httparty', '>= 0.21.0'
 
 # Enables RSpec testing framework with Capybara and Factory Girl.
 gem 'rspec-rails'
@@ -86,7 +86,7 @@ gem 'newrelic_rpm'
 # gem 'capistrano-rails', group: :development
 
 # Dates and times
-gem 'momentjs-rails', '>= 2.9.0'
+gem 'momentjs-rails', '>= 2.15.1'
 gem 'bootstrap3-datetimepicker-rails', '~> 4.0.0'
 
 # Force SSL on certain routes
@@ -94,17 +94,17 @@ gem 'rack-ssl-enforcer'
 
 group :development do
   # Better Error Pages
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller' # enhances better_errors
 
   # Useful debugger
   gem 'byebug', '>=3.5.1'
 
   # static code analyzer
-  gem 'rubocop', require: false
+  gem 'rubocop', '>= 0.49.0', require: false
 
   # documentation generator
-  gem 'yard'
+  gem 'yard', '>= 0.9.20'
 
 end
 
@@ -115,6 +115,6 @@ end
 gem 'prawn', '0.13.0'
 
 # LDAP Lookup
-gem 'net-ldap'
+gem 'net-ldap', '>= 0.16.0'
 
-gem 'sprockets-rails', '2.3.3'
+gem 'sprockets-rails', '3.0.0'
