@@ -70,7 +70,7 @@ gem 'httparty'
 # Enables RSpec testing framework with Capybara and Factory Girl.
 gem 'rspec-rails'
 gem 'rack-test'
-gem 'capybara', group: [:development, :test]
+gem 'capybara', '>= 2.12.0', group: [:development, :test]
 gem 'factory_girl_rails', group: [:development, :test]
 gem 'database_cleaner', group: [:development, :test]
 gem 'codeclimate-test-reporter', group: :test, require: nil
