@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '=4.2.1'
+gem 'rails', '= 7.0.0'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 4.0.3'
+gem 'sass-rails', '>= 6.0.0'
 
 # Use Materialize for the base css
 gem 'materialize-sass'
